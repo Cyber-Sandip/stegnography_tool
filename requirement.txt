@@ -1,1 +1,2 @@
+#you can manually download requiremet using this command - "pip install customtkinter"
 customtkinter
