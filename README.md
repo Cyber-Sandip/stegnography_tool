@@ -1,1 +1,1 @@
-# stegnography_tool
+# stegnography tool
