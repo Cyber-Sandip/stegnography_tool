@@ -17,7 +17,9 @@ Modules: os, struct
 🚀 Getting Started
 1. Clone the Repository
 git clone https://github.com/your-username/steganography-tool.git
+
 cd steganography-tool
+
 2. Install Dependencies
 pip install customtkinter
 3. Run the Application
