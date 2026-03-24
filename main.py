@@ -64,6 +64,7 @@ def extract_files_from_jpg(stego_path, output_dir="."):
         pos += 4
         file_meta.append((filename, file_len))
 
+
     extracted_files = []
     for filename, file_len in file_meta:
         filedata = hidden[pos:pos+file_len]
@@ -76,7 +77,7 @@ def extract_files_from_jpg(stego_path, output_dir="."):
     messagebox.showinfo("✅ Success", f"Extracted {len(extracted_files)} files to:\n{output_dir}")
 
 
-# ==== GUI Part ====
+                                        # ==== GUI Part ====
 def choose_cover_and_hide():
     cover = filedialog.askopenfilename(title="Select Cover JPG", filetypes=[("JPEG Images", "*.jpg;*.jpeg")])
     if not cover:

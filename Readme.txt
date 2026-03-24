@@ -1,17 +1,39 @@
-----------stegnography tool-------------
-# we need to setup for before run it.steps are written bellow =====>>>>
-open terminal ---->>>>>
-            1) First we need to download needed library using this command
-             ==> pip install -r requirement.txt
-            2) Then we can run main.py file 
-    
+---------- STEGANOGRAPHY TOOL ----------
 
-# if you to make exe file(optional)
- 
- 1) you need to install this library : -> "pip install pyinstaller"  .
- 2) go to same folder using cd command
- 3) then write a command :- "pyinstaller --noconsole --onefile --icon=app.ico main.py"
- 4)then go to dist folder then you can find your exe file .
- 5) now your app is ready to shere 🥳🥳🥳  .
+📌 Setup Instructions (Before Running the Project)
+=================================================
 
-             Enjoy it 😋
+Open Terminal / Command Prompt:
+
+1) Install required libraries:
+   ==> pip install -r requirement.txt
+
+2) Run the main application:
+   ==> python main.py
+
+
+--------------------------------------------------
+
+📦 Create EXE File (Optional)
+=============================
+
+1) Install PyInstaller:
+   ==> pip install pyinstaller
+
+2) Go to project folder:
+   ==> cd your-project-folder
+
+3) Create executable file:
+   ==> pyinstaller --noconsole --onefile --icon=app.ico main.py
+
+4) After completion, go to:
+   ==> dist/ folder
+
+5) You will find your EXE file there.
+
+🎉 Your application is now ready to share!
+
+
+--------------------------------------------------
+
+😊 Enjoy using the Steganography Tool!
