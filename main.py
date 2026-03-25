@@ -1,4 +1,4 @@
-`#stegnography tool
+
 import os
 import struct
 import tkinter as tk
